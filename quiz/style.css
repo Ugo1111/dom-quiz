@@ -1,10 +1,10 @@
 .content { margin-top:54px; }
 .header {padding:15px; position:fixed; top:0; width:100%; z-index:9999; }
 .left-title { width:80px; color:#FFF; font-size:18px; float:left; }
-.right-title { width:150px; text-align:right; float:right; color:#FFF;  }
+.right-title { width:150px; ; text-align:right; float:right; color:#FFF;  }
 .quiz-body { margin-top:15px; padding-bottom:50px; }
-.option-block-container { margin-top:20px; max-width:420px; }
-.option-block { padding:10px; background:aliceblue; border:1px solid #84c5fe;  border-radius: 25px; margin-bottom:10px; cursor:pointer; }
+.option-block-container { margin-top:20px; max-width:500px; }
+.option-block { padding:30px; background:aliceblue; border:1px solid #84c5fe;  border-radius: 25px; margin-bottom:10px; cursor:pointer; }
 .result-question { font-weight:bold; }
 .c-wrong { margin-left:20px; color:#FF0000; }
 .c-correct {  margin-left:20px; color:green; }
@@ -13,6 +13,12 @@
 
 .btn-success { padding:10px; background:aliceblue; border:1px solid #84c5fe;  border-radius: 25px; margin-bottom:10px; cursor:pointer;  margin-top:20px; max-width:420px;  }
 .previous-btn{ padding:10px; background:#25a846;  border:1px solid #84c5fe;  border-radius: 25px; margin-bottom:10px; cursor:pointer; color: white; }  
-#question, #qid {
-  font-size: 14px; /* Adjust the font size as needed */
+#question {
+  font-size: 18px; font-family: cursive; /* Adjust the font size as needed */
+}
+/*#qid {
+  font-size: 1px; font-family: cursive; /* Adjust the font size as needed 
+}*/
+#question-options {
+  font-size: 21px ; font-family: cursive; font-weight: bold; /* Adjust the font size as needed */
 }
