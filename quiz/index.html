@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-   <link rel="stylesheet" href="C:\Users\User\Desktop\quiz\style.css">
+   <link rel="stylesheet" href="style.css">
   
    <title>Document</title>
 </head>
@@ -14,7 +14,7 @@
     <header class="header bg-primary">
       
         <div class="left-title">JS Quiz</div>
-        <div class="right-title">Total Questions: <span id="tque"></span></div>
+        <div class="right-title">Total Questions: <span id="qid"></span>/<span  id="tque"></span></div>
         <div class="clearfix"></div>
       </header>
   <div class="content">
@@ -25,15 +25,16 @@
               <div id="result" class="quiz-body">
               <form name="quizForm" onSubmit="">
                   <fieldset class="form-group">
-                  <h4><span id="qid">1.</span> <span id="question"></span></h4>
+                  <h4><!--<span id="qid">1.</span> --><span id="question"></span></h4>
                   
                   <div class="option-block-container" id="question-options">
                     
                    </div> <!-- End of option block -->
                    </fieldset>
-                   <button  name="previous" id="previous" class="btn btn-success">Previous</button>
+                
+                   <button  name="previous" id="previous" class="previous-btn">PREVIOUS</button>
                    &nbsp;
-                   <button  name="next" id="next" class="btn btn-success">Next</button>
+                   <button  name="next" id="next" class="btn-success">NEXT QUESTION </button>
              </form>
              </div>
           </div> <!-- End of col-sm-12 -->
@@ -41,6 +42,7 @@
       </div> <!-- End of row -->
   </div> <!-- ENd of container fluid -->
   </div> <!-- End of content -->
+
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" >  </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" >  </script>
