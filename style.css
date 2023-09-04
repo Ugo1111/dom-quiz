@@ -1,10 +1,10 @@
-.content { margin-top:74px; }
+.content { margin-top:94px; }
 .header {padding:15px; position:fixed; top:0; width:100%; z-index:9999; }
 .left-title { width:80px; color:#FFF; font-size:18px; float:left; }
 .right-title { width:150px; ; text-align:right; float:right; color:#FFF; margin-right:10px; }
 .quiz-body { margin-top:15px; padding-bottom:50px; }
 .option-block-container { margin-top:20px; max-width:420px; }
-.option-block { padding:30px; background:aliceblue; border:1px solid #84c5fe;  border-radius: 25px; margin-bottom:10px; cursor:pointer; }
+.option-block { padding:30px; background:aliceblue; border:1px solid #84c5fe;  border-radius: 45px; margin-bottom:10px; cursor:pointer; }
 .result-question { font-weight:bold; }
 .c-wrong { margin-left:20px; color:#FF0000; }
 .c-correct {  margin-left:20px; color:green; }
