@@ -332,139 +332,457 @@ var quiz = { "JS" : [
 		"answer":"Yes",
 		"score":0,
 		"status": ""
-	}
+	},
+  {
+    "id": 26,
+    "question": "What is the purpose of the 'localStorage' object in JavaScript?",
+    "options": [
+        {
+            "a": "To fetch data from an external API",
+            "b": "To store key-value pairs in a web browser",
+            "c": "To create HTML elements dynamically",
+            "d": "To execute server-side code"
+        }
+    ],
+    "answer": "To store key-value pairs in a web browser",
+    "score": 0,
+    "status": ""
+},
+  {
+    "id": 27,
+    "question": "What is the purpose of the 'getElementById' method in JavaScript?",
+    "options": [
+        {
+            "a": "To retrieve the value of a CSS property",
+            "b": "To access an HTML element by its unique ID",
+            "c": "To create a new HTML element",
+            "d": "To remove an HTML element from the DOM"
+        }
+    ],
+    "answer": "To access an HTML element by its unique ID",
+    "score": 0,
+    "status": ""
+},
+{
+    "id": 28,
+    "question": "What does the 'NaN' value represent in JavaScript?",
+    "options": [
+        {
+            "a": "Not a Name",
+            "b": "Not a Number",
+            "c": "No Action Needed",
+            "d": "New Array Name"
+        }
+    ],
+    "answer": "Not a Number",
+    "score": 0,
+    "status": ""
+},
+{
+    "id": 29,
+    "question": "Which of the following is used to iterate through the properties of an object in JavaScript?",
+    "options": [
+        {
+            "a": "for loop",
+            "b": "if statement",
+            "c": "while loop",
+            "d": "for...in loop"
+        }
+    ],
+    "answer": "for...in loop",
+    "score": 0,
+    "status": ""
+},
+{
+    "id": 30,
+    "question": "What is the purpose of the 'push' method in JavaScript arrays?",
+    "options": [
+        {
+            "a": "To add elements to the beginning of an array",
+            "b": "To remove elements from an array",
+            "c": "To add elements to the end of an array",
+            "d": "To reverse the order of elements in an array"
+        }
+    ],
+    "answer": "To add elements to the end of an array",
+    "score": 0,
+    "status": ""
+},
+{
+    "id": 31,
+    "question": "Which keyword is used to declare a variable in JavaScript that cannot be reassigned?",
+    "options": [
+        {
+            "a": "var",
+            "b": "let",
+            "c": "const",
+            "d": "variable"
+        }
+    ],
+    "answer": "const",
+    "score": 0,
+    "status": ""
+},
+{
+    "id": 32,
+    "question": "What is the purpose of the 'this' keyword in JavaScript?",
+    "options": [
+        {
+            "a": "To refer to the current date and time",
+            "b": "To refer to the current HTML document",
+            "c": "To refer to the current object",
+            "d": "To refer to the previous webpage"
+        }
+    ],
+    "answer": "To refer to the current object",
+    "score": 0,
+    "status": ""
+},
+{
+    "id": 33,
+    "question": "What is the result of '2' + 2 in JavaScript?",
+    "options": [
+        {
+            "a": "4",
+            "b": "22",
+            "c": "Error",
+            "d": "undefined"
+        }
+    ],
+    "answer": "22",
+    "score": 0,
+    "status": ""
+},
+{
+    "id": 34,
+    "question": "Which JavaScript method is used to remove the last element from an array and return it?",
+    "options": [
+        {
+            "a": "pop()",
+            "b": "shift()",
+            "c": "splice()",
+            "d": "unshift()"
+        }
+    ],
+    "answer": "pop()",
+    "score": 0,
+    "status": ""
+},
+{
+    "id": 35,
+    "question": "What is the purpose of the 'addEventListener' method in JavaScript?",
+    "options": [
+        {
+            "a": "To create a new HTML element",
+            "b": "To execute a function immediately",
+            "c": "To add an event handler to an HTML element",
+            "d": "To access the browser's console"
+        }
+    ],
+    "answer": "To add an event handler to an HTML element",
+    "score": 0,
+    "status": ""
+},
+{
+    "id": 36,
+    "question": "Which JavaScript operator is used to compare both the value and the data type of two variables?",
+    "options": [
+        {
+            "a": "==",
+            "b": "===",
+            "c": "!=",
+            "d": "!=="
+        }
+    ],
+    "answer": "===",
+    "score": 0,
+    "status": ""
+},
+  {
+    "id": 37,
+    "question": "What does the 'typeof' operator in JavaScript return when used with an array?",
+    "options": [
+        {
+            "a": "Array",
+            "b": "object",
+            "c": "array",
+            "d": "undefined"
+        }
+    ],
+    "answer": "object",
+    "score": 0,
+    "status": ""
+},
+{
+    "id": 38,
+    "question": "Which function is used to convert a string to an integer in JavaScript?",
+    "options": [
+        {
+            "a": "parseInt()",
+            "b": "parseFloat()",
+            "c": "stringToInt()",
+            "d": "toInt()"
+        }
+    ],
+    "answer": "parseInt()",
+    "score": 0,
+    "status": ""
+},
+{
+    "id": 39,
+    "question": "What is the purpose of the 'split' method in JavaScript?",
+    "options": [
+        {
+            "a": "To join two strings together",
+            "b": "To split a string into an array of substrings",
+            "c": "To remove whitespace from a string",
+            "d": "To reverse the characters in a string"
+        }
+    ],
+    "answer": "To split a string into an array of substrings",
+    "score": 0,
+    "status": ""
+},
+{
+    "id": 40,
+    "question": "What is the 'DOM' in JavaScript?",
+    "options": [
+        {
+            "a": "Document Object Model",
+            "b": "Data Object Model",
+            "c": "Document Object Manipulation",
+            "d": "Data Object Manipulation"
+        }
+    ],
+    "answer": "Document Object Model",
+    "score": 0,
+    "status": ""
+},
+{
+    "id": 41,
+    "question": "Which JavaScript method is used to remove the first element from an array and return it?",
+    "options": [
+        {
+            "a": "pop()",
+            "b": "shift()",
+            "c": "splice()",
+            "d": "unshift()"
+        }
+    ],
+    "answer": "shift()",
+    "score": 0,
+    "status": ""
+},
+{
+    "id": 42,
+    "question": "What is the purpose of the 'JSON.stringify()' method in JavaScript?",
+    "options": [
+        {
+            "a": "To parse a JSON string into an object",
+            "b": "To convert a JavaScript object into a JSON string",
+            "c": "To remove elements from an array",
+            "d": "To reverse the characters in a string"
+        }
+    ],
+    "answer": "To convert a JavaScript object into a JSON string",
+    "score": 0,
+    "status": ""
+},
+{
+    "id": 43,
+    "question": "What is the purpose of the 'setTimeout' function in JavaScript?",
+    "options": [
+        {
+            "a": "To execute a function immediately",
+            "b": "To add an event handler to an HTML element",
+            "c": "To delay the execution of a function",
+            "d": "To create a new HTML element"
+        }
+    ],
+    "answer": "To delay the execution of a function",
+    "score": 0,
+    "status": ""
+},
+{
+    "id": 44,
+    "question": "What is the purpose of the 'localStorage' object in JavaScript?",
+    "options": [
+        {
+            "a": "To store data that persists even after the browser is closed",
+            "b": "To store temporary data that is lost when the browser is closed",
+            "c": "To store data in a remote server",
+            "d": "To store data in memory for the current session"
+        }
+    ],
+    "answer": "To store data that persists even after the browser is closed",
+    "score": 0,
+    "status": ""
+},
+{
+    "id": 45,
+    "question": "What is the purpose of the 'filter' method in JavaScript arrays?",
+    "options": [
+        {
+            "a": "To remove elements from an array",
+            "b": "To create a new array with all elements that pass a test",
+            "c": "To sort the elements of an array",
+            "d": "To reverse the order of elements in an array"
+        }
+    ],
+    "answer": "To create a new array with all elements that pass a test",
+    "score": 0,
+    "status": ""
+},
+{
+    "id": 46,
+    "question": "What does the 'isNaN' function in JavaScript return?",
+    "options": [
+        {
+            "a": "true if the value is not a number, false otherwise",
+            "b": "true if the value is a number, false otherwise",
+            "c": "undefined",
+            "d": "null"
+        }
+    ],
+    "answer": "true if the value is not a number, false otherwise",
+    "score": 0,
+    "status": ""
+}
+
+
 	]
 }
 
 
 
-var quizApp = function() {
 
-	this.score = 0;		
-	this.qno = 1;
-	this.currentque = 0;
-	var totalque = quiz.JS.length;
 
-	
-	this.displayQuiz = function(cque) {
-		this.currentque = cque;
-		if(this.currentque <  totalque) {
-			$("#tque").html(totalque);
-			$("#previous").attr("disabled", false);
-			$("#next").attr("disabled", false);
-			$("#qid").html(quiz.JS[this.currentque].id + '.');
-	
-			
-			$("#question").html(quiz.JS[this.currentque].question);	
-			 $("#question-options").html("");
-			for (var key in quiz.JS[this.currentque].options[0]) {
-			  if (quiz.JS[this.currentque].options[0].hasOwnProperty(key)) {
-		
-				$("#question-options").append(
-					"<div class='form-check option-block'>" +
-					"<label class='form-check-label'>" +
-							  "<input type='radio' class='form-check-input' name='option'   id='q"+key+"' value='" + quiz.JS[this.currentque].options[0][key] + "'><span id='optionval'>" +
-								  quiz.JS[this.currentque].options[0][key] +
-							 "</span></label>"
-				);
-			  }
-			}
-		}
-		if(this.currentque <= 0) {
-			$("#previous").attr("disabled", true);	
-		}
-		if(this.currentque >= totalque) {
-				$('#next').attr('disabled', true);
-				for(var i = 0; i < totalque; i++) {
-					this.score = this.score + quiz.JS[i].score;
-				}
-			return this.showResult(this.score);	
-		}
-	}
-	
-	this.showResult = function(scr) {
-		$("#result").addClass('result');
-		$("#result").html("<h1 class='res-header'>Total Score: &nbsp;" + scr  + '/' + totalque + "</h1>");
-		for(var j = 0; j < totalque; j++) {
-			var res;
-			if(quiz.JS[j].score == 0) {
-					res = '<span class="wrong">' + quiz.JS[j].score + '</span><i class="fa fa-remove c-wrong"></i>';
-			} else {
-				res = '<span class="correct">' + quiz.JS[j].score + '</span><i class="fa fa-check c-correct"></i>';
-			}
-			$("#result").append(
-			'<div class="result-question"><span>Q ' + quiz.JS[j].id + '</span> &nbsp;' + quiz.JS[j].question + '</div>' +
-			'<div><b>Correct answer:</b> &nbsp;' + quiz.JS[j].answer + '</div>' +
-			'<div class="last-row"><b>Score:</b> &nbsp;' + res +
-			
-			'</div>' 
-			
-			);
-			
-		}
-	}
-	
-	this.checkAnswer = function(option) {
-		var answer = quiz.JS[this.currentque].answer;
-		option = option.replace(/\</g,"&lt;")   //for <
-		option = option.replace(/\>/g,"&gt;")   //for >
-		option = option.replace(/"/g, "&quot;")
+/* Created and coded by Abhilash Narayan */
+/* Quiz source: w3schools.com */
 
-		if(option ==  quiz.JS[this.currentque].answer) {
-			if(quiz.JS[this.currentque].score == "") {
-				quiz.JS[this.currentque].score = 1;
-				quiz.JS[this.currentque].status = "correct";
-		}
-		} else {
-			quiz.JS[this.currentque].status = "wrong";
-		}
-		
-	}	
-	 
-	this.changeQuestion = function(cque) {
-			this.currentque = this.currentque + cque;
-			this.displayQuiz(this.currentque);	
-			
-	}
-	
+// Function to shuffle an array
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
 }
 
+// Shuffle the quiz questions
+shuffleArray(quiz.JS);
+
+// Select the first 15 questions
+quiz.JS = quiz.JS.slice(0, 10);
+
+var quizApp = function() {
+  this.score = 0;
+  this.qno = 1;
+  this.currentque = 0;
+  var totalque = quiz.JS.length;
+
+  this.displayQuiz = function(cque) {
+    this.currentque = cque;
+    if (this.currentque < totalque) {
+      $("#tque").html(totalque);
+      $("#previous").attr("disabled", false);
+      $("#next").attr("disabled", false);
+     $("#qid").html(this.currentque + 1 + '.'); //this shows number of questions attempted
+
+      $("#question").html(quiz.JS[this.currentque].question);
+      $("#question-options").html("");
+      for (var key in quiz.JS[this.currentque].options[0]) {
+        if (quiz.JS[this.currentque].options[0].hasOwnProperty(key)) {
+          $("#question-options").append(
+            "<div class='form-check option-block'>" +
+            "<label class='form-check-label'>" +
+            "<input type='radio' class='form-check-input' name='option'   id='q" + key + "' value='" + quiz.JS[this.currentque].options[0][key] + "'><span id='optionval'>" +
+            quiz.JS[this.currentque].options[0][key] +
+            "</span></label>"
+          );
+        }
+      }
+    }
+    if (this.currentque <= 0) {
+      $("#previous").attr("disabled", true);
+    }
+    if (this.currentque >= totalque) {
+      $('#next').attr('disabled', true);
+      for (var i = 0; i < totalque; i++) {
+        this.score = this.score + quiz.JS[i].score;
+      }
+      return this.showResult(this.score);
+    }
+  }
+
+  this.showResult = function(scr) {
+    $("#result").addClass('result');
+    $("#result").html("<h1 class='res-header'>Total Score: &nbsp;" + scr + '/' + totalque + "</h1>");
+    for (var j = 0; j < totalque; j++) {
+      var res;
+      if (quiz.JS[j].score == 0) {
+        res = '<span class="wrong">' + quiz.JS[j].score + '</span><i class="fa fa-remove c-wrong"></i>';
+      } else {
+        res = '<span class="correct">' + quiz.JS[j].score + '</span><i class="fa fa-check c-correct"></i>';
+      }
+      $("#result").append(
+        '<div class="result-question"><span>Q ' + quiz.JS[j].id + '</span> &nbsp;' + quiz.JS[j].question + '</div>' +
+        '<div><b>Correct answer:</b> &nbsp;' + quiz.JS[j].answer + '</div>' +
+        '<div class="last-row"><b>Score:</b> &nbsp;' + res +
+
+        '</div>'
+      );
+    }
+  }
+
+  this.checkAnswer = function(option) {
+    var answer = quiz.JS[this.currentque].answer;
+    option = option.replace(/\</g, "&lt;") //for <
+    option = option.replace(/\>/g, "&gt;") //for >
+    option = option.replace(/"/g, "&quot;")
+
+    if (option == quiz.JS[this.currentque].answer) {
+      if (quiz.JS[this.currentque].score == "") {
+        quiz.JS[this.currentque].score = 1;
+        quiz.JS[this.currentque].status = "correct";
+      }
+    } else {
+      quiz.JS[this.currentque].status = "wrong";
+    }
+  }
+
+  this.changeQuestion = function(cque) {
+    this.currentque = this.currentque + cque;
+    this.displayQuiz(this.currentque);
+  }
+}
 
 var jsq = new quizApp();
 
 var selectedopt;
-	$(document).ready(function() {
-			jsq.displayQuiz(0);		
-		
-	$('#question-options').on('change', 'input[type=radio][name=option]', function(e) {
+$(document).ready(function() {
+  jsq.displayQuiz(0);
 
-			//var radio = $(this).find('input:radio');
-			$(this).prop("checked", true);
-				selectedopt = $(this).val();
-		});
-		
-			
-			 
-	});
+  $('#question-options').on('change', 'input[type=radio][name=option]', function(e) {
+    $(this).prop("checked", true);
+    selectedopt = $(this).val();
+  });
 
-	
-	
-	
-	$('#next').click(function(e) {
-			e.preventDefault();
-			if(selectedopt) {
-				jsq.checkAnswer(selectedopt);
-			}
-			jsq.changeQuestion(1);
-	});	
-	
-	$('#previous').click(function(e) {
-		e.preventDefault();
-		if(selectedopt) {
-			jsq.checkAnswer(selectedopt);
-		}
-			jsq.changeQuestion(-1);
-	});	
+  $('#next').click(function(e) {
+    e.preventDefault();
+    if (selectedopt) {
+      jsq.checkAnswer(selectedopt);
+    }
+    jsq.changeQuestion(1);
+  });
+
+  $('#previous').click(function(e) {
+    e.preventDefault();
+    if (selectedopt) {
+      jsq.checkAnswer(selectedopt);
+    }
+    jsq.changeQuestion(-1);
+  });
+});
 
 
 
