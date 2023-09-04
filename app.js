@@ -655,6 +655,8 @@ var quiz = { "JS" : [
 
 
 
+
+
 /* Created and coded by Abhilash Narayan */
 /* Quiz source: w3schools.com */
 
@@ -684,7 +686,7 @@ var quizApp = function() {
       $("#tque").html(totalque);
       $("#previous").attr("disabled", false);
       $("#next").attr("disabled", false);
-      $("#qid").html(quiz.JS[this.currentque].id + '.');
+     $("#qid").html(this.currentque + 1 + '.'); //this shows number of questions attempted
 
       $("#question").html(quiz.JS[this.currentque].question);
       $("#question-options").html("");
