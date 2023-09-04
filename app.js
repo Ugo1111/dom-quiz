@@ -686,7 +686,7 @@ var quizApp = function() {
       $("#tque").html(totalque);
       $("#previous").attr("disabled", false);
       $("#next").attr("disabled", false);
-     $("#qid").html(this.currentque + 1 + '/'); //this shows number of questions attempted
+     $("#qid").html(this.currentque + 1 ); //this shows number of questions attempted
 
       $("#question").html(quiz.JS[this.currentque].question);
       $("#question-options").html("");
