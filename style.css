@@ -13,7 +13,7 @@
 
 .btn-success { padding:10px; background:aliceblue; border:1px solid #84c5fe;  border-radius: 25px; margin-bottom:10px; cursor:pointer;  margin-top:20px; max-width:420px;  }
 .previous-btn{ padding:10px; background:#25a846;  border:1px solid #84c5fe;  border-radius: 25px; margin-bottom:10px; cursor:pointer; color: white; }  
-#question, #qid {
+#question {
   font-size: 14px; font-family: "Roboto", sans-serif; /* Adjust the font size as needed */
 }
 #question-options {
