@@ -19,3 +19,4 @@
 #question-options {
   font-size: 19px bold; font-family: "Roboto", sans-serif; font-weight: bold; /* Adjust the font size as needed */
 }
+.js-quiz { background:lightgray;   padding:0px; text-align:center; width:160px; color:#FFF; font-size:38px;  border:1px solid #84c5fe;  border-radius: 55px; margin-top:20px; font-weight: bold;}
