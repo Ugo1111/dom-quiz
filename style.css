@@ -27,7 +27,7 @@ display: flex;
 
 .option-block:hover {border:3px solid black;}
 
-.btn-success { padding:10px; background:#25a846;  border:1px solid #84c5fe;  border-radius: 25px; margin-bottom:10px; cursor:pointer;  margin-top:20px; max-width:420px;  }
+.btn-success { padding:10px; background:#25a846;  border:1px solid #84c5fe;  border-radius: 25px; margin-bottom:10px; cursor:pointer;  max-width:420px;  }
 .previous-btn{ padding:10px; background:#25a846;  border:1px solid #84c5fe;  border-radius: 25px; margin-bottom:10px; cursor:pointer; color: white; }  
 #question {
   font-size: 19px; font-family: "Roboto", sans-serif; /* Adjust the font size as needed */
