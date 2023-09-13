@@ -12,8 +12,10 @@
 .res-header { border-bottom:1px solid #ccc; margin-bottom:15px; padding-bottom:15px; }
 
 .quiz-text{font-family: "Jost";
- text-align: center;
-    width: 50%;
+ display: grid;
+    align-content: center;
+    text-align: center;
+       width: 50%;
     margin: 0 auto;
 }
 .option-block:hover {border:3px solid darkorange;}
@@ -26,4 +28,4 @@
 #question-options {
   font-size: 19px bold; font-family: "Roboto", sans-serif; font-weight: bold; /* Adjust the font size as needed */
 }
-.js-quiz { background:lightgray;   padding:0px; text-align:center; width:160px; color:#FFF; font-size:38px;  border-radius: 55px; margin-top:25px; margin-bottom:10px; font-weight: bold;}
+.js-quiz { background:lightgray;   padding:0px; text-align:center; width:160px; color:#FFF; font-size:38px;  border-radius: 55px; margin: 25px auto 10px auto; font-weight: bold;}
