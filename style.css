@@ -1,7 +1,7 @@
 .content { margin-top:44px; background-image: url(bg.jpg); }
 .header {padding:15px; position:fixed; top:0; width:100%; z-index:9999; }
 .left-title { width:80px; color:#FFF; font-size:18px; float:left; font-weight: bold;    font-family: Arial, Helvetica, sans-serif;}
-.right-title { width:150px; ; text-align:right; float:right; color:#FFF; margin-right:10px; }
+.right-title { width:250px; ; text-align:right; float:right; color:#FFF; margin-right:10px; }
 .quiz-body { margin-top:15px; padding-bottom:50px; }
 .option-block-container { margin-top:20px; max-width:420px; }
 .option-block { padding:30px; background: white; border:1px solid black;  border-radius: 45px; margin-bottom:10px; cursor:pointer; }
@@ -10,6 +10,13 @@
 .c-correct {  margin-left:20px; color:green; }
 .last-row { border-bottom:1px solid #ccc; padding-bottom:25px; margin-bottom:25px; }
 .res-header { border-bottom:1px solid #ccc; margin-bottom:15px; padding-bottom:15px; }
+
+.quiz-text{font-family: "Jost";
+ text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.option-block:hover {border:3px solid darkorange;}
 
 .btn-success { padding:10px; background:#25a846;  border:1px solid #84c5fe;  border-radius: 25px; margin-bottom:10px; cursor:pointer;  margin-top:20px; max-width:420px;  }
 .previous-btn{ padding:10px; background:#25a846;  border:1px solid #84c5fe;  border-radius: 25px; margin-bottom:10px; cursor:pointer; color: white; }  
