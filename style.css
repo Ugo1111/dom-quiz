@@ -11,8 +11,7 @@
 .last-row { border-bottom:1px solid #ccc; padding-bottom:25px; margin-bottom:25px; }
 .res-header { border-bottom:1px solid #ccc; margin-bottom:15px; padding-bottom:15px; }
 
-.img {filter: invert(100%); width:120px; -webkit-filter: invert(100%);
-}
+.img {filter: invert(100%); width:120px; }
 
 .quiz-text{font-family: "Jost";
  display: grid;
