@@ -1,6 +1,6 @@
 .content { margin-top:44px; background-image: url(bg.jpg); min-height: 100%;}
 .header {padding:15px; position:fixed; top:0; width:100%; z-index:9999; }
-
+.left-title { float:left; }
 .right-title { width:250px; ; text-align:right; float:right; color:#FFF; margin-right:10px; }
 .quiz-body { margin-top:15px; padding-bottom:50px; }
 .option-block-container { margin-top:20px; max-width:420px; }
@@ -11,7 +11,7 @@
 .last-row { border-bottom:1px solid #ccc; padding-bottom:25px; margin-bottom:25px; }
 .res-header { border-bottom:1px solid #ccc; margin-bottom:15px; padding-bottom:15px; }
 
-.img {filter: invert(100%); width:120px; -webkit-filter: invert(100%); float:left; 
+.img {filter: invert(100%); width:120px; -webkit-filter: invert(100%);
 }
 
 .quiz-text{font-family: "Jost";
