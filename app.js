@@ -1,7 +1,7 @@
 /* Created and coded by Abhilash Narayan */
 /* Quiz source: w3schools.com */
 
-var quiz = { "JS" : [
+var quiz = { "JS" : [ 
   {
     "id": 1,
     "question": "Inside which HTML element do we put the JavaScript?",
